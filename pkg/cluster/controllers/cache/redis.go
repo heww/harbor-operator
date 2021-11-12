@@ -9,7 +9,7 @@ import (
 	"github.com/goharbor/harbor-operator/pkg/cluster/lcm"
 	"github.com/ovh/configstore"
 	"github.com/pkg/errors"
-	redisOp "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisOp "github.com/szlabs/redis-operator/api/redisfailover/v1"
 	corev1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

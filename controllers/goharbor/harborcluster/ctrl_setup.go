@@ -18,7 +18,7 @@ import (
 	"github.com/goharbor/harbor-operator/pkg/utils/strings"
 	"github.com/ovh/configstore"
 	"github.com/pkg/errors"
-	redisOp "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisOp "github.com/szlabs/redis-operator/api/redisfailover/v1"
 	postgresv1 "github.com/zalando/postgres-operator/pkg/apis/acid.zalan.do/v1"
 	batchv1 "k8s.io/api/batch/v1"
 	"k8s.io/apimachinery/pkg/runtime"

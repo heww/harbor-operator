@@ -24,8 +24,7 @@ require (
 	github.com/prometheus/client_golang v1.11.0
 	github.com/sethvargo/go-password v0.1.3
 	github.com/sirupsen/logrus v1.8.1
-	github.com/spotahome/redis-operator v1.0.0
-	github.com/szlabs/redis-operator v1.0.1 // indirect
+	github.com/szlabs/redis-operator v1.0.1
 	github.com/theupdateframework/notary v0.6.1
 	github.com/uber/jaeger-client-go v2.24.0+incompatible
 	github.com/uber/jaeger-lib v2.2.0+incompatible
@@ -43,7 +42,3 @@ require (
 	sigs.k8s.io/kustomize/kstatus v0.0.2
 	sigs.k8s.io/yaml v1.2.0
 )
-
-replace github.com/spotahome/redis-operator v1.0.0 => github.com/szlabs/redis-operator v1.0.1
-
-replace github.com/szlabs/redis-operator v1.0.1 => github.com/spotahome/redis-operator v1.0.0

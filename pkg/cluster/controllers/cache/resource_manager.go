@@ -10,7 +10,7 @@ import (
 	"github.com/goharbor/harbor-operator/pkg/config"
 	"github.com/goharbor/harbor-operator/pkg/resources/checksum"
 	"github.com/ovh/configstore"
-	redisOp "github.com/spotahome/redis-operator/api/redisfailover/v1"
+	redisOp "github.com/szlabs/redis-operator/api/redisfailover/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
